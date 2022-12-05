@@ -27,15 +27,12 @@ def main():
     counter = 0
     aux = []
     for i in pack:
-        if pack != '':
-            if i == '':
-                counter+= 1
-                result = 0
-            else:
-                result = int(result) + int(i)
-                d[counter] = result
+        if i == '':
+            counter+= 1
+            result = 0
         else:
-            counter += 1
+            result = int(result) + int(i)
+            d[counter] = result
 
     for _,v in d.items():
         aux.append(v)
