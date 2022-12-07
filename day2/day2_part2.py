@@ -25,7 +25,6 @@ def main():
     #A, X = (1,lose)#rock
     #B, Y = (2,draw)#paper
     #C, Z = (3,win)#scissors
-    print(x) 
     for i in range(len(x)):
         if i%2 == 0:
             aux = x[i]
